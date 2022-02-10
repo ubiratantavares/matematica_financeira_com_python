@@ -31,9 +31,7 @@ class Simples:
         return montante/(1 + taxa * periodo)
 
 
-class Composto:
-    
-    
+class Composto:    
     
     def juros(self, capital, taxa, periodo):
         return capital * ((taxa + 1)**periodo - 1)
